@@ -1,0 +1,114 @@
+$zero-size: 0px;
+$size-main: 10px;
+$size-width: 100;
+$position: center;
+$color-black: #0f0f0f;
+$color-red: #ff0505;
+$color-grey: #808080;
+$color-green: #078817;
+$color-white: #ffffff;
+$font-family-main: Roboto;
+
+body {
+    margin: $zero-size;
+    padding: $zero-size;
+    color: $color-white;
+}
+
+.main-container {
+    background-image: url('../pict/background.jpg');
+    width: $size-width * 19.2 + px;
+    height: $size-width * 7.18 + px;
+    background-size: cover;
+    position: relative;
+    background-position: $position;
+    align-content: $position;
+    margin: $zero-size;
+
+    .currency-select-container {
+        border-radius: $size-main;
+        width: $size-width *9.35+px;
+        height: $size-width*0.8+px;
+        border: 1px solid $color-grey;
+        top: $size-main*4;
+        position: relative;
+        align-content: $position;
+
+        .select-currency {
+            position: absolute;
+            font-size: $size-main * 2.5;
+        }
+
+        .dropdown-currency {
+            
+        }
+
+        .myBtn {
+            width: $size-main*15.5;
+            
+            
+        }
+    }
+
+    .container-curency {
+        position: absolute;
+        align-content: $position;
+        font-size: $size-main * 1.2;
+        font-weight: $size-width*6;
+
+
+        .EnthereumCurrency {
+            background-image: url('../pict/Ethereum.png');
+            width: $size-width * 3 + px;
+            height: $size-width * 3.5 + px;
+            background-size: cover;
+            position: relative;
+            background-position: $position;
+            align-content: $position;
+            margin-right: $size-main * 2;
+            top: $size-width + px;
+            float: left;
+            border-radius: 3%;
+        }
+
+        .LitecoinCurrency {
+            background-image: url('../pict/Litecoin.png');
+            width: $size-width * 3 + px;
+            height: $size-width * 3.5 + px;
+            background-size: cover;
+            position: relative;
+            background-position: $position;
+            align-content: $position;
+            margin-right: $size-main * 2;
+            top: $size-width + px;
+            float: left;
+            border-radius: 3%;
+        }
+
+        .BitcoinCurrency {
+            background-image: url('../pict/Bitcoin.png');
+            width: $size-width * 3 + px;
+            height: $size-width * 3.5 + px;
+            background-size: cover;
+            position: relative;
+            background-position: $position;
+            align-content: $position;
+            top: $size-width + px;
+            float: left;
+            border-radius: 3%;
+        }
+
+        .data-values {
+            position: relative;
+        }
+
+        .right {
+            text-align: right;
+            color: $color-green;
+        }
+
+        .mute {
+            color: $color-grey;
+        }
+    }
+}

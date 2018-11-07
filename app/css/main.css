@@ -1,0 +1,74 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  color: #ffffff; }
+
+.main-container {
+  background-image: url("../pict/background.jpg");
+  width: 1920px;
+  height: 718px;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  align-content: center;
+  margin: 0px; }
+  .main-container .currency-select-container {
+    border-radius: 10px;
+    width: 935px;
+    height: 80px;
+    border: 1px solid #808080;
+    top: 40px;
+    position: relative;
+    align-content: center; }
+    .main-container .currency-select-container .select-currency {
+      position: absolute;
+      font-size: 25px; }
+    .main-container .currency-select-container .myBtn {
+      width: 155px; }
+  .main-container .container-curency {
+    position: absolute;
+    align-content: center;
+    font-size: 12px;
+    font-weight: 600; }
+    .main-container .container-curency .EnthereumCurrency {
+      background-image: url("../pict/Ethereum.png");
+      width: 300px;
+      height: 350px;
+      background-size: cover;
+      position: relative;
+      background-position: center;
+      align-content: center;
+      margin-right: 20px;
+      top: 100px;
+      float: left;
+      border-radius: 3%; }
+    .main-container .container-curency .LitecoinCurrency {
+      background-image: url("../pict/Litecoin.png");
+      width: 300px;
+      height: 350px;
+      background-size: cover;
+      position: relative;
+      background-position: center;
+      align-content: center;
+      margin-right: 20px;
+      top: 100px;
+      float: left;
+      border-radius: 3%; }
+    .main-container .container-curency .BitcoinCurrency {
+      background-image: url("../pict/Bitcoin.png");
+      width: 300px;
+      height: 350px;
+      background-size: cover;
+      position: relative;
+      background-position: center;
+      align-content: center;
+      top: 100px;
+      float: left;
+      border-radius: 3%; }
+    .main-container .container-curency .data-values {
+      position: relative; }
+    .main-container .container-curency .right {
+      text-align: right;
+      color: #078817; }
+    .main-container .container-curency .mute {
+      color: #808080; }
